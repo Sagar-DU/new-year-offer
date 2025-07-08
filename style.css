@@ -32,12 +32,22 @@ body {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .banner-container {
     text-align: center;
 }
-.banner-container h1 {
+.banner-container h1, .banner-container h2 {
     margin: 0;
+}
+
+#subtitle {
+    margin-bottom: 16px;
+}
+
+
+/* Footer Style */
+footer {
+    text-align: center;
 }
