@@ -46,6 +46,13 @@ body {
     font-style: normal;
 }
 
+.non-hero-title-exbold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
 /* Bannaer Style */
 .banner {
     display: flex;
@@ -160,6 +167,49 @@ body {
     padding: 16px 32px;
     border-radius: 8px;
     margin-top: 48px;
+}
+
+/* Upcomming Section Styles */
+.upcomming-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-bottom: 120px;
+}
+
+.upcomming-subtitle {
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.upcomming-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.upcomming-text {
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.new-offers img {
+    border: 15px solid red;
+    border-radius: 9999px;
+    padding: 30px;
+}
+
+.year {
+    color: red;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.img-container img {
+    border: 0;
+    border-radius: 0;
+    margin-top: 43px;
+    padding-left: 0;
 }
 
 /* Footer Style */
