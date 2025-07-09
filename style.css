@@ -274,7 +274,46 @@ body {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    
+
+}
+
+/* Newsletter Styles */
+.newsletter-container {
+    text-align: center;
+    margin-bottom: 120px;
+    padding: 80px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.newsletter-text {
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.input-field input {
+    border-radius: 50px 0 0 50px;
+    width: 432px;
+    height: 72px;
+    font-size: 18px;
+    padding-left: 20px;
+    border: 0;
+}
+
+.input-field button {
+    border: 0;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    color: white;
+    height: 72px;
+    width: 216px;
+    font-size: 20px;
+    padding: 24px;
 }
 
 /* Footer Style */
