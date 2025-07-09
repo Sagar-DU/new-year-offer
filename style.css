@@ -37,21 +37,21 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 .non-hero-title-bold {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 /* Bannaer Style */
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("media/images/BannerImage.png");
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("media/images/BannerImage.png");
     color: aliceblue;
     width: 1320px;
     height: 600px;
@@ -62,7 +62,9 @@ body {
 .banner-container {
     text-align: center;
 }
-.banner-container h1, .banner-container h2 {
+
+.banner-container h1,
+.banner-container h2 {
     margin: 0;
 }
 
@@ -77,7 +79,9 @@ body {
     margin-bottom: 120px;
 }
 
-.offer, .tag-line, .catagory-subtitle {
+.offer,
+.tag-line,
+.catagory-subtitle {
     text-align: center;
     text-transform: uppercase;
 }
@@ -102,7 +106,7 @@ body {
 
 /* Party Section Style */
 .party-container {
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("media/images/Vectorrr.png");
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("media/images/Vectorrr.png");
     background-size: cover;
     border-radius: 16px;
     margin-bottom: 120px;
@@ -134,6 +138,15 @@ body {
     text-transform: uppercase;
     margin-top: 48px;
     margin-left: 32px;
+}
+
+/* Address Styles */
+.address-container {
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    padding-top: 100px;
+    margin-bottom: 120px;
 }
 
 /* Footer Style */
