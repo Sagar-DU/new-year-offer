@@ -1,5 +1,5 @@
 header,
-main, .footer-contact-container {
+main, .footer-contact-container, .footer-message {
     width: 90%;
     margin: 0 auto;
 }
@@ -328,7 +328,7 @@ footer {
     justify-content: space-between;
     padding-top: 120px;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .social-container {
@@ -337,4 +337,14 @@ footer {
     align-items: center;
     gap: 24px;
     padding-top: 98px;
+}
+
+
+
+.footer-message {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 98px;
+    padding-bottom: 120px;
 }
