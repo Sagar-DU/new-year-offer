@@ -233,6 +233,21 @@ body {
     color: rgba(7, 2, 17, 0.6);
 }
 
+.holiday-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-img-container img {
+    z-index: 10;
+}
+
+.red-rectangle {
+    margin-top: -200px;
+    z-index: 1;
+}
+
 /* Footer Style */
 footer {
     text-align: center;
