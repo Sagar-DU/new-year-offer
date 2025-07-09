@@ -149,6 +149,19 @@ body {
     margin-bottom: 120px;
 }
 
+.special-text {
+    color: red;
+}
+
+.address-btn {
+    background-color: red;
+    color: aliceblue;
+    border: 0;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 48px;
+}
+
 /* Footer Style */
 footer {
     text-align: center;
