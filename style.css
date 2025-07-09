@@ -1,4 +1,5 @@
-body {
+header,
+main, .footer-contact-container {
     width: 90%;
     margin: 0 auto;
 }
@@ -318,5 +319,14 @@ body {
 
 /* Footer Style */
 footer {
-    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footer-contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    font-weight: 500;
+    font-size: 24px;
 }
